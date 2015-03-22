@@ -8,10 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : KWin's Blog
+title : Kwin's Blog
 tagline: Site Tagline
 author :
-  name : KWin Wang
+  name : Kwin Wang
   email : kwin.wang@gmail.com
   github : kwin-wang
 
