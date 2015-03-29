@@ -26,17 +26,19 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https:/kwin-wang.github.io
+production_url : https://kwin-wang.github.io
+#production_url : http://127.0.0.1:400
+
 
 nav:
-  - text: 分类了吗
+  - text: 分类
     url : /categories.html
   - text: 标签
     url : /tags.html
   - text: 归档
     url : /archive.html
-  - text: 关于
-    url : /about.md
+  - text:  关于
+    url : /about.html
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

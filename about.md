@@ -1,10 +1,17 @@
 ---
-layout: page
-title: "关于"
-description: ""
+layout: default
+title: 关于
 group: navigation
 ---
-{% include JB/setup %}
 
-###我的世界观
-只想好好的生活
+##关于我
+
+安徽人士, 原为数学系专业，目前在北京一家企业做软件工程师,从事语言模型研究等工作.
+
+##关于这个博客
+
+在这之前，我已经在博客园、CSDN开过博客，但因反感其广告，故最近在Github上建立了此博客。至于之前的博客，就不再此挂上了，打算从头再来！
+
+##联系方式
+
+邮箱: <kwin.wang@gmail.com>
