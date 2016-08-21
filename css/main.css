@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: droid sans, sans-serif;
+$secondary-font:   lato, sans-serif;
+$tertiary-font-family: droid sans, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+
+$background-color: #fff;
+$inner-color:      #f9f7f4;
+$footer-color:     darken(saturate($inner-color, 20%), 7%);
+$text-color:       #3D3B30;
+$brand-color:      #4c76ef;
+$accent-color:     #F7B05B;
+$max-color:        #753F32;
+$jacob-color:      #D5C7BC;
+
+
+$grey-color:       lighten($text-color, 20%);
+$grey-color-light: saturate($grey-color, 47%);
+$grey-color-dark:  darken($grey-color, 25%);
+$outside-color:    orange;
+$brand-line:       0px solid $grey-color; 
+
+
+// Width of the content area
+$content-width:    950px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
